@@ -52,7 +52,7 @@ class DiaryEntry
                                   # number of minutes the user has to read
     # Returns a string with a chunk of the contents that the user could read
     # in the given number of minutes.
-    # If called again, `reading_chunk` should return the next chunk, skipping
+    # If called again, `reading_chunk` should return the next chunk, skipping.
     # what has already been read, until the contents is fully read.
     # The next call after that it should restart from the beginning.
 end
